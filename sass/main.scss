@@ -1,0 +1,43 @@
+/*
+COLORS:
+
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485
+
+*/
+
+$body-padding: 40px 50px;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.7;
+    color: #ffffff;
+    padding: $body-padding;
+    background: rgb(0, 0, 0);
+    transition: all 0.5s ease 0s;
+}
+
+header {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+
+.section-intro ul{
+    list-style-type: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: $body-padding;
+}
