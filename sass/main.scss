@@ -7,7 +7,7 @@ Dark green: #28b485
 
 */
 
-$body-padding: 40px 50px;
+$body-padding: 20px;
 
 * {
     margin: 0;
@@ -20,9 +20,9 @@ body {
     font-weight: 400;
     font-size: 12px;
     line-height: 1.7;
-    color: #ffffff;
+    color: #000;
     padding: $body-padding;
-    background: rgb(0, 0, 0);
+    background: rgb(255,255,255);
     transition: all 0.5s ease 0s;
 }
 
@@ -33,11 +33,29 @@ header {
 
 .section-intro ul{
     list-style-type: none;
+    display: inline-block;
+    padding: 0 $body-padding;
+}
+
+.section-intro__hero {
+    width: 80%;
+    height: 80%;
+    max-width: 400px;
+    min-width: 280px;
+    display: inline-block;
+    margin: 0 auto;
+    padding: $body-padding 0 0;
+}
+
+.section-intro__msg {
+    padding: $body-padding 0;
+}
+
+.section-intro__msg p {
+    width: 210px;
+    display: block;
+    margin: 0 auto;
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    padding: $body-padding;
 }

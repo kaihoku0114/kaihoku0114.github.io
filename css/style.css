@@ -16,9 +16,9 @@ body {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.7;
-  color: #ffffff;
-  padding: 40px 50px;
-  background: black;
+  color: #000;
+  padding: 20px;
+  background: white;
   transition: all 0.5s ease 0s; }
 
 header {
@@ -26,12 +26,25 @@ header {
   font-size: 30px; }
 
 .section-intro ul {
-  list-style-type: none; }
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 20px; }
 
-footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  padding: 40px 50px; }
+.section-intro__hero {
+  width: 80%;
+  height: 80%;
+  max-width: 400px;
+  min-width: 280px;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 20px 0 0; }
+
+.section-intro__msg {
+  padding: 20px 0; }
+
+.section-intro__msg p {
+  width: 210px;
+  display: block;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */
